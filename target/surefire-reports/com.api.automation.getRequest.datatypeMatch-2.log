@@ -1,0 +1,30 @@
+16:00:27.440 karate.env system property was: null 
+16:00:27.443 request:
+1 > GET https://www.anapioficeandfire.com/api/characters/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.anapioficeandfire.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+16:00:28.021 response time in milliseconds: 576.63
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 71f5da8c4e4b0682-LHR
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 22 Jun 2022 15:00:28 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6WNJ6nk5lQQ6RRfCaR9VEkJKcWbzKOlN5Jq81eplq%2BePBTBeJhjUghMCoh9XLlW6N284OzkM%2Fp%2FFIwJce0tnwFmcDytM49U7LTmnmaqi9EZucnqf%2FINmDCrcUPtH%2BzzNCyAeRRmcSfHqMGcw"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < X-Powered-By: ASP.NET
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"url":"https://www.anapioficeandfire.com/api/characters/2","name":"Walder","gender":"Male","culture":"","born":"","died":"","titles":[""],"aliases":["Hodor"],"father":"","mother":"","spouse":"","allegiances":["https://www.anapioficeandfire.com/api/houses/362"],"books":["https://www.anapioficeandfire.com/api/books/1","https://www.anapioficeandfire.com/api/books/2","https://www.anapioficeandfire.com/api/books/3","https://www.anapioficeandfire.com/api/books/5","https://www.anapioficeandfire.com/api/books/8"],"povBooks":[],"tvSeries":["Season 1","Season 2","Season 3","Season 4","Season 6"],"playedBy":["Kristian Nairn"]}
+
+Nairn"]}
+
+n"]}
+

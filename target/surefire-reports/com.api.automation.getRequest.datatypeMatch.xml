@@ -1,0 +1,1413 @@
+<testsuite failures="0" name="com/api/automation/getRequest/datatypeMatch.feature" skipped="0" tests="14" time="17.413757">
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="1.815584">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="1.814088">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="2.720885">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="2.760741">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="2.691599">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="0.287752">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="0.93614">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+7 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="1.080238">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+7 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+8 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="0.676276">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+7 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+8 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+9 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="0.580051">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+7 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+8 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+9 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+10 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="0.623644">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+7 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+8 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+9 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+10 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+11 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the book API data is present as per the requirement" time="0.558616">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+7 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+8 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+9 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+10 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+11 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+12 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the characters API dataType is present as per the requirement" time="0.590415">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+7 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+8 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+9 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+10 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+11 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+12 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/characters/2' .................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string' ............................................. passed
+And match $.gender == '#string? _.length &gt;= 1' ............................ passed
+And match $.culture == '#string' .......................................... passed
+And match $.born == '#string' ............................................. passed
+And match $.died == '#string' ............................................. passed
+And match $.titles == '#array' ............................................ passed
+And match $.aliases == '#array' ........................................... passed
+And match $.father == '#string' ........................................... passed
+And match $.mother == '#string' ........................................... passed
+And match $.spouse == '#string' ........................................... passed
+And match $.allegiances == '#array' ....................................... passed
+And match $.books == '#array? _.length &gt;= 0' .............................. passed
+And match $.povBooks == '#array' .......................................... passed
+And match $.tvSeries == '#array' .......................................... passed
+And match $.playedBy == '#array' .......................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.datatypeMatch" name="To validate if the houses API dataType is present as per the requirement" time="0.277729">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/'+1 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+2 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+3 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+4 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+5 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+6 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+7 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+8 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+9 ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+10 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+11 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/'+12 ..................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string? _.length &gt;= 1' .............................. passed
+And match $.isbn == '#string? _.length &gt;= 1' .............................. passed
+And match $.numberOfPages == '#number? _ &gt;= 1' ............................ passed
+And match $.publisher == '#string' ........................................ passed
+And match $.country == '#string' .......................................... passed
+And match $.authors == '#array' ........................................... passed
+And match $.mediaType == '#string' ........................................ passed
+And match $.characters == '#array' ........................................ passed
+And match $.povCharacters == '#array' ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/characters/2' .................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string' ............................................. passed
+And match $.gender == '#string? _.length &gt;= 1' ............................ passed
+And match $.culture == '#string' .......................................... passed
+And match $.born == '#string' ............................................. passed
+And match $.died == '#string' ............................................. passed
+And match $.titles == '#array' ............................................ passed
+And match $.aliases == '#array' ........................................... passed
+And match $.father == '#string' ........................................... passed
+And match $.mother == '#string' ........................................... passed
+And match $.spouse == '#string' ........................................... passed
+And match $.allegiances == '#array' ....................................... passed
+And match $.books == '#array? _.length &gt;= 0' .............................. passed
+And match $.povBooks == '#array' .......................................... passed
+And match $.tvSeries == '#array' .......................................... passed
+And match $.playedBy == '#array' .......................................... passed
+Given url baseUrl ......................................................... passed
+And path '/houses/1' ...................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match $.name == '#string' ............................................. passed
+And match $.region == '#string' ........................................... passed
+And match $.coatOfArms == '#string' ....................................... passed
+And match $.words == '#string' ............................................ passed
+And match $.titles == '#array' ............................................ passed
+And match $.seats == '#array' ............................................. passed
+And match $.currentLord == '#string' ...................................... passed
+And match $.heir == '#string' ............................................. passed
+And match $.overlord == '#string' ......................................... passed
+And match $.founded == '#string' .......................................... passed
+And match $.founder == '#string' .......................................... passed
+And match $.diedOut == '#string' .......................................... passed
+And match $.ancestralWeapons == '#array' .................................. passed
+And match $.cadetBranches == '#array' ..................................... passed
+And match $.swornMembers == '#array' ...................................... passed</system-out>
+  </testcase>
+</testsuite>

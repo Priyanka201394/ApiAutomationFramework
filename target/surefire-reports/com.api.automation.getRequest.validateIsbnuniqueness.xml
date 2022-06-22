@@ -1,0 +1,30 @@
+<testsuite failures="0" name="com/api/automation/getRequest/validateIsbnuniqueness.feature" skipped="0" tests="1" time="5.48894">
+  <testcase classname="com.api.automation.getRequest.validateIsbnuniqueness" name="To validate if the Isbn value in the Books API has unique values" time="5.48894">
+    <system-out>Given url 'https://www.anapioficeandfire.com/api' ......................... passed
+And path '/books' ......................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def responses = response ................................................ passed
+* def isbnPage1 = karate.jsonPath(responses,'$[*].isbn') .................. passed
+* def pageHeader = responseHeaders['Link'][0] ............................. passed
+* def pages = pageHeader.split(",",3) ..................................... passed
+* def func = .............................................................. passed
+* def pagenext = call func ................................................ passed
+* def getNextLink = pagenext .............................................. passed
+* def nextLink = getNextLink.split(";",1) ................................. passed
+* def nextPage = nextLink[0].slice(1,nextLink.length-2) ................... passed
+And url nextPage .......................................................... passed
+When method GET ........................................................... passed
+* def responses2 = response ............................................... passed
+* def isbnPage2 = karate.jsonPath(responses2,'$[*].isbn') ................. passed
+* def pageHeader = responseHeaders['Link'][0] ............................. passed
+* def pages = pageHeader.split(",",3) ..................................... passed
+* def pagenext = call func ................................................ passed
+* def getNextLink = pagenext .............................................. passed
+And match getNextLink.pagenext == 0 ....................................... passed
+* def totalisbn = karate.append(isbnPage1,isbnPage2) ...................... passed
+* def isbnFunc = .......................................................... passed
+* def uniqueIsbn = call isbnFunc .......................................... passed
+* print uniqueIsbn ........................................................ passed</system-out>
+  </testcase>
+</testsuite>

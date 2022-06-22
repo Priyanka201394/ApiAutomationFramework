@@ -1,0 +1,28 @@
+15:34:43.479 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:34:43.484 request:
+1 > GET https://www.anapioficeandfire.com/api/books
+1 > Accept: application/vnd.anapioficeandfire+json; version=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.anapioficeandfire.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+15:34:43.833 response time in milliseconds: 345.71
+1 < 400
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 71d4bf57aa81755a-LHR
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jun 2022 14:34:43 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wbNHUvBKwylVRQ6RFBb59d6fUNZcmems9CsLFRg5z%2F9VrebnCZVGffcZp4Y3%2FN1c98oCUtGh2%2BMzjxinRyD6Bdrx5EhE7TS3uir8KO4JZzlwkwjk6XWGfwBcaL9nDH4X5alMzIBXIQaj4qon"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+1 < Transfer-Encoding: chunked
+1 < X-Powered-By: ASP.NET
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"error":{"code":"UnsupportedApiVersion","message":"The HTTP resource that matches the request URI 'https://www.anapioficeandfire.com/api/books' does not support the API version '2'.","innerError":null}}
+
+}}
+

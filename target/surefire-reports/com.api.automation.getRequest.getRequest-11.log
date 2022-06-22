@@ -1,0 +1,32 @@
+00:07:44.694 karate.env system property was: null 
+00:07:44.706 request:
+1 > GET https://www.anapioficeandfire.com/api/houses/200
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.anapioficeandfire.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+00:07:44.896 response time in milliseconds: 189.16
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 71e8299a391475bd-LHR
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 20 Jun 2022 23:07:45 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Nah4Ts0OK3BL5AbirpAt9igm40Q6ba0j4W4Nh6hG0hw3geXtSW2blHD7tYk%2B5aGt1LvMuob%2Fl6Y03pN6W2wAIo5WNIl%2BUYyi9wNXcVhrEfUGNXy1pb9dYbaFfupMsWJ12AuyT%2BzuAPZK%2FFpE"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < X-Powered-By: ASP.NET
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"url":"https://www.anapioficeandfire.com/api/houses/200","name":"House Holt","region":"The North","coatOfArms":"","words":"","titles":[""],"seats":[""],"currentLord":"","heir":"","overlord":"https://www.anapioficeandfire.com/api/houses/34","founded":"","founder":"","diedOut":"","ancestralWeapons":[""],"cadetBranches":[],"swornMembers":[]}
+
+:[]}
+
+":[""],"cadetBranches":[],"swornMembers":[]}
+
+
+

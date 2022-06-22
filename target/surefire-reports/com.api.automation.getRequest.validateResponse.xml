@@ -1,0 +1,282 @@
+<testsuite failures="0" name="com/api/automation/getRequest/validateResponse.feature" skipped="0" tests="6" time="6.822701">
+  <testcase classname="com.api.automation.getRequest.validateResponse" name="To validate if the character from a book has that book." time="2.067345">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def bookresponse = response ............................................. passed
+* def charInBook = bookresponse.characters ................................ passed
+* def charInBook1 = charInBook[0] ......................................... passed
+When url charInBook1 ...................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def bookChar = charresponse.books ....................................... passed
+* def bookInCharResponse = bookChar[0] .................................... passed
+When url bookInCharResponse ............................................... passed
+And method GET ............................................................ passed
+* def charBookResponse = response ......................................... passed
+And match bookresponse == charBookResponse ................................ passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.validateResponse" name="To validate if the povCharcter from books have povBooks" time="1.989246">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def bookresponse = response ............................................. passed
+* def charInBook = bookresponse.characters ................................ passed
+* def charInBook1 = charInBook[0] ......................................... passed
+When url charInBook1 ...................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def bookChar = charresponse.books ....................................... passed
+* def bookInCharResponse = bookChar[0] .................................... passed
+When url bookInCharResponse ............................................... passed
+And method GET ............................................................ passed
+* def charBookResponse = response ......................................... passed
+And match bookresponse == charBookResponse ................................ passed
+Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def povCharInBook = response.povCharacters .............................. passed
+* def povCharInBook1 = povCharInBook[0] ................................... passed
+When url povCharInBook1 ................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def povBooks = response.povBooks ........................................ passed
+* def povBook1 = povBooks[0] .............................................. passed
+When url povBook1 ......................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.validateResponse" name="To validate if the allegiances from a character has that character" time="1.003987">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def bookresponse = response ............................................. passed
+* def charInBook = bookresponse.characters ................................ passed
+* def charInBook1 = charInBook[0] ......................................... passed
+When url charInBook1 ...................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def bookChar = charresponse.books ....................................... passed
+* def bookInCharResponse = bookChar[0] .................................... passed
+When url bookInCharResponse ............................................... passed
+And method GET ............................................................ passed
+* def charBookResponse = response ......................................... passed
+And match bookresponse == charBookResponse ................................ passed
+Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def povCharInBook = response.povCharacters .............................. passed
+* def povCharInBook1 = povCharInBook[0] ................................... passed
+When url povCharInBook1 ................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def povBooks = response.povBooks ........................................ passed
+* def povBook1 = povBooks[0] .............................................. passed
+When url povBook1 ......................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+Given url baseUrl ......................................................... passed
+And path '/characters/2' .................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def charAllegiances = charresponse.allegiances .......................... passed
+* def charAlleg1 = charAllegiances[0] ..................................... passed
+When url charAlleg1 ....................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def allResponse = response .............................................. passed
+* def allegChar = allResponse.swornMembers ................................ passed
+* def allegChar1 = allegChar[0] ........................................... passed
+When url allegChar1 ....................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charInAll = response ................................................ passed
+And match charInAll == charresponse ....................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.validateResponse" name="To get the Book API data only for version =1" time="1.07508">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def bookresponse = response ............................................. passed
+* def charInBook = bookresponse.characters ................................ passed
+* def charInBook1 = charInBook[0] ......................................... passed
+When url charInBook1 ...................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def bookChar = charresponse.books ....................................... passed
+* def bookInCharResponse = bookChar[0] .................................... passed
+When url bookInCharResponse ............................................... passed
+And method GET ............................................................ passed
+* def charBookResponse = response ......................................... passed
+And match bookresponse == charBookResponse ................................ passed
+Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def povCharInBook = response.povCharacters .............................. passed
+* def povCharInBook1 = povCharInBook[0] ................................... passed
+When url povCharInBook1 ................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def povBooks = response.povBooks ........................................ passed
+* def povBook1 = povBooks[0] .............................................. passed
+When url povBook1 ......................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+Given url baseUrl ......................................................... passed
+And path '/characters/2' .................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def charAllegiances = charresponse.allegiances .......................... passed
+* def charAlleg1 = charAllegiances[0] ..................................... passed
+When url charAlleg1 ....................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def allResponse = response .............................................. passed
+* def allegChar = allResponse.swornMembers ................................ passed
+* def allegChar1 = allegChar[0] ........................................... passed
+When url allegChar1 ....................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charInAll = response ................................................ passed
+And match charInAll == charresponse ....................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books' ......................................................... passed
+And header Accept = 'application/vnd.anapioficeandfire+json; version=1' ... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.validateResponse" name="To get 'Bad Request' when the Book API data version is not 1" time="0.187475">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def bookresponse = response ............................................. passed
+* def charInBook = bookresponse.characters ................................ passed
+* def charInBook1 = charInBook[0] ......................................... passed
+When url charInBook1 ...................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def bookChar = charresponse.books ....................................... passed
+* def bookInCharResponse = bookChar[0] .................................... passed
+When url bookInCharResponse ............................................... passed
+And method GET ............................................................ passed
+* def charBookResponse = response ......................................... passed
+And match bookresponse == charBookResponse ................................ passed
+Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def povCharInBook = response.povCharacters .............................. passed
+* def povCharInBook1 = povCharInBook[0] ................................... passed
+When url povCharInBook1 ................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def povBooks = response.povBooks ........................................ passed
+* def povBook1 = povBooks[0] .............................................. passed
+When url povBook1 ......................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+Given url baseUrl ......................................................... passed
+And path '/characters/2' .................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def charAllegiances = charresponse.allegiances .......................... passed
+* def charAlleg1 = charAllegiances[0] ..................................... passed
+When url charAlleg1 ....................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def allResponse = response .............................................. passed
+* def allegChar = allResponse.swornMembers ................................ passed
+* def allegChar1 = allegChar[0] ........................................... passed
+When url allegChar1 ....................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charInAll = response ................................................ passed
+And match charInAll == charresponse ....................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books' ......................................................... passed
+And header Accept = 'application/vnd.anapioficeandfire+json; version=1' ... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books' ......................................................... passed
+And header Accept = 'application/vnd.anapioficeandfire+json; version=2' ... passed
+When method GET ........................................................... passed
+Then status 400 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.api.automation.getRequest.validateResponse" name="To validate the response of the API against the Json file" time="0.499569">
+    <system-out>Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def bookresponse = response ............................................. passed
+* def charInBook = bookresponse.characters ................................ passed
+* def charInBook1 = charInBook[0] ......................................... passed
+When url charInBook1 ...................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def bookChar = charresponse.books ....................................... passed
+* def bookInCharResponse = bookChar[0] .................................... passed
+When url bookInCharResponse ............................................... passed
+And method GET ............................................................ passed
+* def charBookResponse = response ......................................... passed
+And match bookresponse == charBookResponse ................................ passed
+Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+* def povCharInBook = response.povCharacters .............................. passed
+* def povCharInBook1 = povCharInBook[0] ................................... passed
+When url povCharInBook1 ................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def povBooks = response.povBooks ........................................ passed
+* def povBook1 = povBooks[0] .............................................. passed
+When url povBook1 ......................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+Given url baseUrl ......................................................... passed
+And path '/characters/2' .................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def charresponse = response ............................................. passed
+* def charAllegiances = charresponse.allegiances .......................... passed
+* def charAlleg1 = charAllegiances[0] ..................................... passed
+When url charAlleg1 ....................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def allResponse = response .............................................. passed
+* def allegChar = allResponse.swornMembers ................................ passed
+* def allegChar1 = allegChar[0] ........................................... passed
+When url allegChar1 ....................................................... passed
+And method GET ............................................................ passed
+Then status 200 ........................................................... passed
+* def charInAll = response ................................................ passed
+And match charInAll == charresponse ....................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books' ......................................................... passed
+And header Accept = 'application/vnd.anapioficeandfire+json; version=1' ... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books' ......................................................... passed
+And header Accept = 'application/vnd.anapioficeandfire+json; version=2' ... passed
+When method GET ........................................................... passed
+Then status 400 ........................................................... passed
+Given url baseUrl ......................................................... passed
+And path '/books/1' ....................................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def apiResponse = response .............................................. passed
+* print apiResponse ....................................................... passed
+* def jsonData = call read ('data.json') .................................. passed
+* def actualResponse = jsonData ........................................... passed
+* print actualResponse .................................................... passed
+And match apiResponse == actualResponse ................................... passed</system-out>
+  </testcase>
+</testsuite>

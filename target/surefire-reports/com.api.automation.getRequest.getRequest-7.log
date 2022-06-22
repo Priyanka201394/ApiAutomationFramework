@@ -1,0 +1,36 @@
+16:00:28.422 karate.env system property was: null 
+16:00:28.426 request:
+1 > GET https://www.anapioficeandfire.com/api/characters?page=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.anapioficeandfire.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+16:00:29.295 response time in milliseconds: 867.42
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 71f5da90583688b5-LHR
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 22 Jun 2022 15:00:28 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Link: <https://www.anapioficeandfire.com/api/characters?page=2&pageSize=10>; rel="next", <https://www.anapioficeandfire.com/api/characters?page=1&pageSize=10>; rel="first", <https://www.anapioficeandfire.com/api/characters?page=214&pageSize=10>; rel="last"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oMrpUJKKOn44hlIEaYRrw%2BZaJbe0N3Vq8DAifdYTXQDU%2FwhuyY64R8Xs%2BrIn3fVnq055K5V8gSU%2Fz1a%2B3vayKVGgCaWsPuPDFTCgumG9wQCo4%2Bqy0zP9IbMRWu09htJha0BJONzFjyRMRm5j"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < X-Powered-By: ASP.NET
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"url":"https://www.anapioficeandfire.com/api/characters/1","name":"","gender":"Female","culture":"Braavosi","born":"","died":"","titles":[""],"aliases":["The Daughter of the Dusk"],"father":"","mother":"","spouse":"","allegiances":[],"books":["https://www.anapioficeandfire.com/api/books/5"],"povBooks":[],"tvSeries":[""],"playedBy":[""]},{"url":"https://www.anapioficeandfire.com/api/characters/2","name":"Walder","gender":"Male","culture":"","born":"","died":"","titles":[""],"aliases":["Hodor"],"father":"","mother":"","spouse":"","allegiances":["https://www.anapioficeandfire.com/api/houses/362"],"books":["https://www.anapioficeandfire.com/api/books/1","https://www.anapioficeandfire.com/api/books/2","https://www.anapioficeandfire.com/api/books/3","https://www.anapioficeandfire.com/api/books/5","https://www.anapioficeandfire.com/api/books/8"],"povBooks":[],"tvSeries":["Season 1","Season 2","Season 3","Season 4","Season 6"],"playedBy":["Kristian Nairn"]},{"url":"https://www.anapioficeandfire.com/api/characters/3","name":"","gender":"Male","culture":"","born":"","died":"","titles":[""],"aliases":["Lamprey"],"father":"","mother":"","spouse":"","allegiances":["https://www.anapioficeandfire.com/api/houses/15"],"books":["https://www.anapioficeandfire.com/api/books/3"],"povBooks":[],"tvSeries":[""],"playedBy":[""]},{"url":"https://www.anapioficeandfire.com/api/characters/4","name":"","gender":"Female","culture":"Braavosi","born":"","died":"","titles":[""],"aliases":["The Merling Queen"],"father":"","mother":"","spouse":"","allegiances":[],"books":["https://www.anapioficeandfire.com/api/books/5","https://www.anapioficeandfire.com/api/books/8"],"povBooks":[],"tvSeries":[""],"playedBy":[""]},{"url":"https://www.anapioficeandfire.com/api/characters/5","name":"","gender":"Male","culture":"","born":"","died":"","titles":[""],"aliases":["Old Crackbones"],"father":"","mother":"","spouse":"","allegiances":[],"books":["https://www.anapioficeandfire.com/api/books/5"],"povBooks":[],"tvSeries":[""],"playedBy":[""]},{"url":"https://www.anapioficeandfire.com/api/characters/6","name":"","gender":"Female","culture":"Braavosi","born":"","died":"","titles":[""],"aliases":["The Poetess"],"father":"","mother":"","spouse":"","allegiances":[],"books":["https://www.anapioficeandfire.com/api/books/5"],"povBooks":[],"tvSeries":[""],"playedBy":[""]},{"url":"https://www.anapioficeandfire.com/api/characters/7","name":"","gender":"Female","culture":"","born":"","died":"","titles":[""],"aliases":["Porridge"],"father":"","mother":"","spouse":"","allegiances":["https://www.anapioficeandfire.com/api/houses/15"],"books":["https://www.anapioficeandfire.com/api/books/3"],"povBooks":[],"tvSeries":[""],"playedBy":[""]},{"url":"https://www.anapioficeandfire.com/api/characters/8","name":"","gender":"Male","culture":"","born":"","died":"","titles":[""],"aliases":["Quickfinger"],"father":"","mother":"","spouse":"","allegiances":["https://www.anapioficeandfire.com/api/houses/23"],"books":["https://www.anapioficeandfire.com/api/books/6"],"povBooks":[],"tvSeries":[""],"playedBy":[""]},{"url":"https://www.anapioficeandfire.com/api/characters/9","name":"","gender":"Female","culture":"","born":"","died":"","titles":[""],"aliases":["the Sailor's Wife"],"father":"","mother":"","spouse":"","allegiances":[],"books":["https://www.anapioficeandfire.com/api/books/5"],"povBooks":[],"tvSeries":[""],"playedBy":[""]},{"url":"https://www.anapioficeandfire.com/api/characters/10","name":"","gender":"Female","culture":"Braavosi","born":"","died":"","titles":[""],"aliases":["The Veiled Lady"],"father":"","mother":"","spouse":"","allegiances":[],"books":["https://www.anapioficeandfire.com/api/books/5"],"povBooks":[],"tvSeries":[""],"playedBy":[""]}]
+
+
+""]}]
+
+Series":[""],"playedBy":[""]}]
+
+]}]
+
+
+

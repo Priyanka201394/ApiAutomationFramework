@@ -1,0 +1,28 @@
+15:34:48.192 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:34:48.198 request:
+1 > GET https://www.anapioficeandfire.com/api/books/12
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.anapioficeandfire.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+15:34:48.404 response time in milliseconds: 204.08
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 71d4bf745b9e71f0-LHR
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jun 2022 14:34:48 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xAoeSgL7sHwfXNRoOpPxr9WnGGlUYwynBdV2O%2BlRH6pSeI5kJehiIPyplTqcvP2I%2B7Igrw%2Ba4nLVj8LQclnGSX96tUUv2UsL7f1WaxbAEe1P4Au1N5Rqk32IJxmDUq%2BbZS8UjitMaXoZCafJ"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < X-Powered-By: ASP.NET
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"url":"https://www.anapioficeandfire.com/api/books/12","name":"A Knight of the Seven Kingdoms","isbn":"978-0345533487","authors":["George R. R. Martin"],"numberOfPages":368,"publisher":"Bantam Books","country":"United States","mediaType":"Hardcover","released":"2015-10-06T00:00:00","characters":[],"povCharacters":[]}
+
+]}
+

@@ -1,0 +1,26 @@
+15:34:44.825 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:34:44.829 request:
+1 > GET https://www.anapioficeandfire.com/api/books/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.anapioficeandfire.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+15:34:45.297 response time in milliseconds: 462.77
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 71d4bf5f6b537187-LHR
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 18 Jun 2022 14:34:45 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bE21bh%2BtnuPtyHeGHXZmD7bbBZJO9oXFUfAwwOCQuQkDkrLw3I93Ttpatbtmh%2F6wNerDlbB0SPm3x9pIkQZRlj8v9iatUSgdqz00Bdv081KlQLcf6G94wYjY%2FlT00AYjyovaceo%2B%2BCxDw%2F3o"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < X-Powered-By: ASP.NET
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"url":"https://www.anapioficeandfire.com/api/books/4","name":"The Hedge Knight","isbn":"978-0976401100","authors":["George R. R. Martin"],"numberOfPages":164,"publisher":"Dabel Brothers Publishing","country":"United States","mediaType":"GraphicNovel","released":"2005-03-09T00:00:00","characters":["https://www.anapioficeandfire.com/api/characters/29","https://www.anapioficeandfire.com/api/characters/38","https://www.anapioficeandfire.com/api/characters/40","https://www.anapioficeandfire.com/api/characters/41","https://www.anapioficeandfire.com/api/characters/46","https://www.anapioficeandfire.com/api/characters/54","https://www.anapioficeandfire.com/api/characters/58","https://www.anapioficeandfire.com/api/characters/61","https://www.anapioficeandfire.com/api/characters/121","https://www.anapioficeandfire.com/api/characters/132","https://www.anapioficeandfire.com/api/characters/161","https://www.anapioficeandfire.com/api/characters/274","https://www.anapioficeandfire.com/api/characters/276","https://www.anapioficeandfire.com/api/characters/283","https://www.anapioficeandfire.com/api/characters/318","https://www.anapioficeandfire.com/api/characters/412","https://www.anapioficeandfire.com/api/characters/437","https://www.anapioficeandfire.com/api/characters/513","https://www.anapioficeandfire.com/api/characters/514","https://www.anapioficeandfire.com/api/characters/581","https://www.anapioficeandfire.com/api/characters/596","https://www.anapioficeandfire.com/api/characters/623","https://www.anapioficeandfire.com/api/characters/641","https://www.anapioficeandfire.com/api/characters/679","https://www.anapioficeandfire.com/api/characters/695","https://www.anapioficeandfire.com/api/characters/702","https://www.anapioficeandfire.com/api/characters/709","https://www.anapioficeandfire.com/api/characters/729","https://www.anapioficeandfire.com/api/characters/733","https://www.anapioficeandfire.com/api/characters/782","https://www.anapioficeandfire.com/api/characters/792","https://www.anapioficeandfire.com/api/characters/807","https://www.anapioficeandfire.com/api/characters/816","https://www.anapioficeandfire.com/api/characters/843","https://www.anapioficeandfire.com/api/characters/853","https://www.anapioficeandfire.com/api/characters/868","https://www.anapioficeandfire.com/api/characters/874","https://www.anapioficeandfire.com/api/characters/895","https://www.anapioficeandfire.com/api/characters/910","https://www.anapioficeandfire.com/api/characters/921","https://www.anapioficeandfire.com/api/characters/945","https://www.anapioficeandfire.com/api/characters/969","https://www.anapioficeandfire.com/api/characters/988","https://www.anapioficeandfire.com/api/characters/1048","https://www.anapioficeandfire.com/api/characters/1067","https://www.anapioficeandfire.com/api/characters/1117","https://www.anapioficeandfire.com/api/characters/1392","https://www.anapioficeandfire.com/api/characters/1812","https://www.anapioficeandfire.com/api/characters/1966","https://www.anapioficeandfire.com/api/characters/1976","https://www.anapioficeandfire.com/api/characters/1983","https://www.anapioficeandfire.com/api/characters/2086","https://www.anapioficeandfire.com/api/characters/2128","https://www.anapioficeandfire.com/api/characters/2130"],"povCharacters":["https://www.anapioficeandfire.com/api/characters/329"]}
+

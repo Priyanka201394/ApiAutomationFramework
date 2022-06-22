@@ -1,0 +1,82 @@
+16:00:27.409 karate.env system property was: null 
+16:00:27.413 request:
+1 > GET https://www.anapioficeandfire.com/api/characters/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.anapioficeandfire.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+16:00:27.891 response time in milliseconds: 469.51
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 71f5da89da627511-LHR
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 22 Jun 2022 15:00:27 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qWXTpH7ClCLW%2BB2LaO9pwt9iaJvjrNA4B5kq0JI84JZJ7UMFa32MSLm9zqhW5eIqCv4MmuokyQPWZClBH0Euzb4vs28gmECBq5jqsntm2Btv8aY1XXhmjsBTyejzoHTK7sAn7ss19tcpWQWX"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < X-Powered-By: ASP.NET
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"url":"https://www.anapioficeandfire.com/api/characters/2","name":"Walder","gender":"Male","culture":"","born":"","died":"","titles":[""],"aliases":["Hodor"],"father":"","mother":"","spouse":"","allegiances":["https://www.anapioficeandfire.com/api/houses/362"],"books":["https://www.anapioficeandfire.com/api/books/1","https://www.anapioficeandfire.com/api/books/2","https://www.anapioficeandfire.com/api/books/3","https://www.anapioficeandfire.com/api/books/5","https://www.anapioficeandfire.com/api/books/8"],"povBooks":[],"tvSeries":["Season 1","Season 2","Season 3","Season 4","Season 6"],"playedBy":["Kristian Nairn"]}
+
+16:00:27.901 request:
+2 > GET https://www.anapioficeandfire.com/api/houses/362
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73; ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73
+2 > Host: www.anapioficeandfire.com
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+16:00:28.175 response time in milliseconds: 272.65
+2 < 200
+2 < CF-Cache-Status: DYNAMIC
+2 < CF-RAY: 71f5da8d6da57309-LHR
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Wed, 22 Jun 2022 15:00:28 GMT
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FhSZTaFft5uNMyGhR8yQWn13Dq%2FTZ3po8OgCs4rFXjYWzU6A%2FaGskVpXGURswLumWf5%2FLVNMkg9LHRyBxGGlX3xrant1U9UwGChE%2B6WVu7v3UTXb0Jz6duhUEGktZEEKgeswZCW3TZ4V3Rax"}],"group":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+2 < Transfer-Encoding: chunked
+2 < Vary: Accept-Encoding
+2 < X-Powered-By: ASP.NET
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"url":"https://www.anapioficeandfire.com/api/houses/362","name":"House Stark of Winterfell","region":"The North","coatOfArms":"A running grey direwolf, on an ice-white field","words":"Winter is Coming","titles":["King in the North","Lord of Winterfell","Warden of the North","King of the Trident"],"seats":["Scattered (formerly Winterfell)"],"currentLord":"","heir":"","overlord":"https://www.anapioficeandfire.com/api/houses/16","founded":"Age of Heroes","founder":"https://www.anapioficeandfire.com/api/characters/209","diedOut":"","ancestralWeapons":["Ice"],"cadetBranches":["https://www.anapioficeandfire.com/api/houses/170","https://www.anapioficeandfire.com/api/houses/215"],"swornMembers":["https://www.anapioficeandfire.com/api/characters/2","https://www.anapioficeandfire.com/api/characters/20","https://www.anapioficeandfire.com/api/characters/97","https://www.anapioficeandfire.com/api/characters/98","https://www.anapioficeandfire.com/api/characters/136","https://www.anapioficeandfire.com/api/characters/143","https://www.anapioficeandfire.com/api/characters/148","https://www.anapioficeandfire.com/api/characters/170","https://www.anapioficeandfire.com/api/characters/181","https://www.anapioficeandfire.com/api/characters/192","https://www.anapioficeandfire.com/api/characters/206","https://www.anapioficeandfire.com/api/characters/207","https://www.anapioficeandfire.com/api/characters/208","https://www.anapioficeandfire.com/api/characters/209","https://www.anapioficeandfire.com/api/characters/210","https://www.anapioficeandfire.com/api/characters/212","https://www.anapioficeandfire.com/api/characters/216","https://www.anapioficeandfire.com/api/characters/232","https://www.anapioficeandfire.com/api/characters/259","https://www.anapioficeandfire.com/api/characters/324","https://www.anapioficeandfire.com/api/characters/339","https://www.anapioficeandfire.com/api/characters/340","https://www.anapioficeandfire.com/api/characters/349","https://www.anapioficeandfire.com/api/characters/351","https://www.anapioficeandfire.com/api/characters/354","https://www.anapioficeandfire.com/api/characters/389","https://www.anapioficeandfire.com/api/characters/461","https://www.anapioficeandfire.com/api/characters/561","https://www.anapioficeandfire.com/api/characters/583","https://www.anapioficeandfire.com/api/characters/584","https://www.anapioficeandfire.com/api/characters/589","https://www.anapioficeandfire.com/api/characters/591","https://www.anapioficeandfire.com/api/characters/593","https://www.anapioficeandfire.com/api/characters/603","https://www.anapioficeandfire.com/api/characters/648","https://www.anapioficeandfire.com/api/characters/668","https://www.anapioficeandfire.com/api/characters/716","https://www.anapioficeandfire.com/api/characters/737","https://www.anapioficeandfire.com/api/characters/777","https://www.anapioficeandfire.com/api/characters/887","https://www.anapioficeandfire.com/api/characters/891","https://www.anapioficeandfire.com/api/characters/911","https://www.anapioficeandfire.com/api/characters/912","https://www.anapioficeandfire.com/api/characters/916","https://www.anapioficeandfire.com/api/characters/917","https://www.anapioficeandfire.com/api/characters/918","https://www.anapioficeandfire.com/api/characters/957","https://www.anapioficeandfire.com/api/characters/1101","https://www.anapioficeandfire.com/api/characters/1111","https://www.anapioficeandfire.com/api/characters/1148","https://www.anapioficeandfire.com/api/characters/1158","https://www.anapioficeandfire.com/api/characters/1175","https://www.anapioficeandfire.com/api/characters/1185","https://www.anapioficeandfire.com/api/characters/1190","https://www.anapioficeandfire.com/api/characters/1254","https://www.anapioficeandfire.com/api/characters/1260","https://www.anapioficeandfire.com/api/characters/1326","https://www.anapioficeandfire.com/api/characters/1336","https://www.anapioficeandfire.com/api/characters/1383","https://www.anapioficeandfire.com/api/characters/1396","https://www.anapioficeandfire.com/api/characters/1407","https://www.anapioficeandfire.com/api/characters/1488","https://www.anapioficeandfire.com/api/characters/1489","https://www.anapioficeandfire.com/api/characters/1499","https://www.anapioficeandfire.com/api/characters/1515","https://www.anapioficeandfire.com/api/characters/1526","https://www.anapioficeandfire.com/api/characters/1565","https://www.anapioficeandfire.com/api/characters/1602","https://www.anapioficeandfire.com/api/characters/1620","https://www.anapioficeandfire.com/api/characters/1649","https://www.anapioficeandfire.com/api/characters/1650","https://www.anapioficeandfire.com/api/characters/1706","https://www.anapioficeandfire.com/api/characters/1737","https://www.anapioficeandfire.com/api/characters/1749","https://www.anapioficeandfire.com/api/characters/1787","https://www.anapioficeandfire.com/api/characters/1796","https://www.anapioficeandfire.com/api/characters/1816","https://www.anapioficeandfire.com/api/characters/1819","https://www.anapioficeandfire.com/api/characters/1843","https://www.anapioficeandfire.com/api/characters/1946","https://www.anapioficeandfire.com/api/characters/1950","https://www.anapioficeandfire.com/api/characters/1979","https://www.anapioficeandfire.com/api/characters/2019","https://www.anapioficeandfire.com/api/characters/2020","https://www.anapioficeandfire.com/api/characters/2037","https://www.anapioficeandfire.com/api/characters/2068","https://www.anapioficeandfire.com/api/characters/2089","https://www.anapioficeandfire.com/api/characters/2119"]}
+
+16:00:28.193 request:
+3 > GET https://www.anapioficeandfire.com/api/characters/2
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Cookie: ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73; ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73
+3 > Host: www.anapioficeandfire.com
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_251)
+
+16:00:28.414 response time in milliseconds: 220.23
+3 < 200
+3 < CF-Cache-Status: DYNAMIC
+3 < CF-RAY: 71f5da8ede6776ed-LHR
+3 < Connection: keep-alive
+3 < Content-Type: application/json; charset=utf-8
+3 < Date: Wed, 22 Jun 2022 15:00:28 GMT
+3 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+3 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+3 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PcwUYFJXXhz5uS%2Fmw93TmctOIe9O4h93vpPEyXWOs1J5eUW2INtMOSTkR5rhsqB%2F4RhIvVsRa5GnWmekSbBkV%2FQp8%2FruePWWc1QI3POH5XOe11RRVrfkbnIY9vPYSaJXllYPMeeF1Zh3IXkE"}],"group":"cf-nel","max_age":604800}
+3 < Server: cloudflare
+3 < Set-Cookie: [ARRAffinity=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;Secure;Domain=www.anapioficeandfire.com, ARRAffinitySameSite=91aefdf0a68a5a113b8933f82a9e8b2d7b414dbb6a64220b80ee0bbc3fbd2a73;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.anapioficeandfire.com]
+3 < Transfer-Encoding: chunked
+3 < Vary: Accept-Encoding
+3 < X-Powered-By: ASP.NET
+3 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"url":"https://www.anapioficeandfire.com/api/characters/2","name":"Walder","gender":"Male","culture":"","born":"","died":"","titles":[""],"aliases":["Hodor"],"father":"","mother":"","spouse":"","allegiances":["https://www.anapioficeandfire.com/api/houses/362"],"books":["https://www.anapioficeandfire.com/api/books/1","https://www.anapioficeandfire.com/api/books/2","https://www.anapioficeandfire.com/api/books/3","https://www.anapioficeandfire.com/api/books/5","https://www.anapioficeandfire.com/api/books/8"],"povBooks":[],"tvSeries":["Season 1","Season 2","Season 3","Season 4","Season 6"],"playedBy":["Kristian Nairn"]}
+
+n"]}
+
+ian Nairn"]}
+

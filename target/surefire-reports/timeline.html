@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-5"},{"id":2,"content":"ForkJoinPool-1-worker-3"},{"id":3,"content":"ForkJoinPool-1-worker-2"},{"id":4,"content":"ForkJoinPool-1-worker-1"},{"id":5,"content":"ForkJoinPool-1-worker-4"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"datatypeMatch[1.1:22]","start":1249,"end":3084,"title":"datatypeMatch[1.1:22] 1249-3084"},{"id":2,"group":2,"content":"datatypeMatch[1.2:23]","start":1249,"end":3083,"title":"datatypeMatch[1.2:23] 1249-3083"},{"id":3,"group":3,"content":"datatypeMatch[1.3:24]","start":3049,"end":5772,"title":"datatypeMatch[1.3:24] 3049-5772"},{"id":4,"group":2,"content":"datatypeMatch[1.4:25]","start":3091,"end":5855,"title":"datatypeMatch[1.4:25] 3091-5855"},{"id":5,"group":1,"content":"datatypeMatch[1.5:26]","start":3091,"end":5785,"title":"datatypeMatch[1.5:26] 3091-5785"},{"id":6,"group":3,"content":"datatypeMatch[1.6:27]","start":5849,"end":6138,"title":"datatypeMatch[1.6:27] 5849-6138"},{"id":7,"group":1,"content":"datatypeMatch[1.7:28]","start":5866,"end":6805,"title":"datatypeMatch[1.7:28] 5866-6805"},{"id":8,"group":3,"content":"datatypeMatch[1.8:29]","start":6255,"end":7337,"title":"datatypeMatch[1.8:29] 6255-7337"},{"id":9,"group":4,"content":"datatypeMatch[1.9:30]","start":6792,"end":7469,"title":"datatypeMatch[1.9:30] 6792-7469"},{"id":10,"group":5,"content":"datatypeMatch[1.10:31]","start":6782,"end":7364,"title":"datatypeMatch[1.10:31] 6782-7364"},{"id":11,"group":1,"content":"datatypeMatch[1.11:32]","start":6816,"end":7441,"title":"datatypeMatch[1.11:32] 6816-7441"},{"id":12,"group":5,"content":"datatypeMatch[1.12:33]","start":7375,"end":7936,"title":"datatypeMatch[1.12:33] 7375-7936"},{"id":13,"group":4,"content":"datatypeMatch[2:35]","start":7481,"end":8074,"title":"datatypeMatch[2:35] 7481-8074"},{"id":14,"group":5,"content":"datatypeMatch[3:55]","start":7948,"end":8231,"title":"datatypeMatch[3:55] 7948-8231"},{"id":15,"group":5,"content":"getRequest[1:6]","start":1249,"end":4673,"title":"getRequest[1:6] 1249-4673"},{"id":16,"group":3,"content":"getRequest[2:11]","start":1249,"end":3033,"title":"getRequest[2:11] 1249-3033"},{"id":17,"group":5,"content":"getRequest[3:16]","start":5768,"end":6773,"title":"getRequest[3:16] 5768-6773"},{"id":18,"group":2,"content":"getRequest[4:22]","start":7946,"end":8238,"title":"getRequest[4:22] 7946-8238"},{"id":19,"group":4,"content":"getRequest[5:27]","start":8081,"end":8258,"title":"getRequest[5:27] 8081-8258"},{"id":20,"group":5,"content":"getRequest[6:32]","start":8237,"end":8458,"title":"getRequest[6:32] 8237-8458"},{"id":21,"group":4,"content":"getRequest[7:37]","start":8462,"end":9336,"title":"getRequest[7:37] 8462-9336"},{"id":22,"group":1,"content":"getRequest[8:43]","start":8462,"end":9330,"title":"getRequest[8:43] 8462-9330"},{"id":23,"group":5,"content":"getRequest[9:48]","start":8468,"end":9322,"title":"getRequest[9:48] 8468-9322"},{"id":24,"group":2,"content":"getRequest[10:53]","start":9333,"end":9833,"title":"getRequest[10:53] 9333-9833"},{"id":25,"group":4,"content":"validateIsbnuniqueness[1:6]","start":1249,"end":6756,"title":"validateIsbnuniqueness[1:6] 1249-6756"},{"id":26,"group":2,"content":"validateResponse[1:6]","start":5867,"end":7937,"title":"validateResponse[1:6] 5867-7937"},{"id":27,"group":3,"content":"validateResponse[2:23]","start":7347,"end":9338,"title":"validateResponse[2:23] 7347-9338"},{"id":28,"group":1,"content":"validateResponse[3:37]","start":7449,"end":8455,"title":"validateResponse[3:37] 7449-8455"},{"id":29,"group":2,"content":"validateResponse[4:56]","start":8247,"end":9324,"title":"validateResponse[4:56] 8247-9324"},{"id":30,"group":4,"content":"validateResponse[5:62]","start":8266,"end":8455,"title":"validateResponse[5:62] 8266-8455"},{"id":31,"group":5,"content":"validateResponse[6:69]","start":9336,"end":9837,"title":"validateResponse[6:69] 9336-9837"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>
