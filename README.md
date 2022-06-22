@@ -1,4 +1,4 @@
-# API Automation uing Karate Framework
+# API Automation using Karate Framework
 ## Table of Contents
   - Project
   - Why Karate
@@ -15,7 +15,7 @@
    - It is Open source
    - BDD based testing framework
    - Perform Multi thread parallel execution
-   - Perform API and UI Automation
+   - Perform API and UI Automation in single framework
    - Validate Performance of the API and UI
 
 ### Setup
@@ -47,17 +47,17 @@
   - Use the dependencies that are stable and can be widely accepted in any platform.
   
  ### Assumptions
-  - The project is automated in the assumption that only GET method call can be made for the test cases.
+  - The project is automated in the assumption that only GET method call can be made for the test cases of the Ice and Fire API.
   - The project is automated in the assumption that only the regression test scenarios are automated.
   - This projected is automated in the assumption that the user should have basic understanding of API testing and BDD testing approach.
 
 ### Framework Design
   - This framework is designed with one java class and many features. 
-  - Create a package in the Maven project
+  - Create a package in the Maven project with the following 
     - Create TestRunner.java class within the pacakge which consist of scripts to execute the features parallely and to generate the cucumber report.
     - Create features within the package which consist of
-      - Features: Describes about the test being peformed.
-      - Backround: scripts within background in executed before each scenario.
+      - Features: Briefs about the test being peformed.
+      - Background: Scripts within background in executed before each scenario.
       - Scenario outline(optional): For Data Driven testing , uses examples where scenario is executed for each example data.
       - Scenario: Test cases with test steps.
      ```mermaid
